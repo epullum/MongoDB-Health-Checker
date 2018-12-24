@@ -7,7 +7,7 @@ Created on Dec 20, 2018
 
 import pymongo as py
 
-
+#Class to get data from database.
 class Database:
     
     def __init__(self):

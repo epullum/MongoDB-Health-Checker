@@ -195,7 +195,9 @@ class Gui:
                             columnspan=10,
                             rowspan=10
                             )
-        
+
+
+#Functions for buttons to execute when selected        
     def getDatabase(self):
         self.txtBox.delete(1.0, END)
         connect = db.Database()
